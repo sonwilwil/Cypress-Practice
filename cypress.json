@@ -1,0 +1,16 @@
+{
+    "defaultCommandTimeout":4000,
+    "chromeWebSecurity": false,
+    "reporter":"mochawesome",
+    "reporterOptions": {
+        "charts": true,
+        "overwrite": true,
+        "html": true,
+        "json": false,
+        "reportDir":"cypress/report/mochawesome-report"
+    },
+    "experimentalStudio": true,
+    "env": {
+        "url": "https://react-redux.realworld.io/"
+    }
+}
